@@ -8,6 +8,16 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "vercel-build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.7",
     "class-variance-authority": "^0.7.0",
@@ -31,4 +41,5 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
+  
 }
